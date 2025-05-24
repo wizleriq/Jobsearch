@@ -87,11 +87,11 @@ const ProfilesComponent = () => {
 
   // function App() {
   return (
-    <section className=" lg:bg-[#ffffff] lg:w-[1400px] lg:h-[8370px] lg:flex-col lg:items-center lg:justify-center 
+    <section className=" lg:bg-[#ffffff] lg:w-full lg:h-[8370px] lg:flex-col lg:items-center lg:justify-center 
     w-[430px] h-[8000px] bg-[#ffffff] flex-col justify-center items-center">
    
 
-      <div className="lg:w-100vw lg:relative lg:h-[890px] lg:bg-[#F1F5F9] lg:flex lg:flex-col lg:items-center lg:justify-start 
+      <div className="lg:w-full lg:relative lg:h-[890px] lg:bg-[#F1F5F9] lg:flex lg:flex-col lg:items-center lg:justify-start 
       bg-[#F1F5F9]">
 
         {/* Navbar Starts  bg-[url('./images/background.png')] */}
@@ -215,17 +215,17 @@ height: 16.25552749633789; */}
 
               <img src={Userfive} alt="User" className="lg:absolute lg:left-[0px] lg:w-[50.4px] lg:h-[50.4px] absolute left-[10px] w-[16.25px]
               h-[16.22px] " />
-              <img src={Userten} alt="User" className="lg:absolute lg:left-[44px] lg:w-[50.4px] lg:h-[50.4px] absolute left-[23px] w-[16.25px]
+              <img src={Userten} alt="User" className="lg:absolute lg:left-[42px] lg:w-[50.4px] lg:h-[50.4px] absolute left-[23px] w-[16.25px]
               h-[16.22px]  " />
-              <img src={Usernine} alt="User" className="lg:absolute lg:right-[166px] lg:w-[50.4px] lg:h-[50.4px] absolute  left-[35px] w-[16.25px]
+              <img src={Usernine} alt="User" className="lg:absolute lg:left-[84px] lg:w-[50.4px] lg:h-[50.4px] absolute  left-[35px] w-[16.25px]
               h-[16.22px] " />
-              <img src={Usereight} alt="User" className="lg:absolute lg:right-[122px] lg:w-[50.4px] lg:h-[50.4px] absolute right-[54px] w-[16.25px]
+              <img src={Usereight} alt="User" className="lg:absolute lg:left-[125px] lg:w-[50.4px] lg:h-[50.4px] absolute right-[54px] w-[16.25px]
               h-[16.22px] " />
-              <img src={Userseven} alt="User" className="lg:absolute lg:right-[77px] lg:w-[50.4px] lg:h-[50.4px] absolute left-[62px] w-[16.25px]
+              <img src={Userseven} alt="User" className="lg:absolute lg:left-[165px] lg:w-[50.4px] lg:h-[50.4px] absolute left-[62px] w-[16.25px]
               h-[16.22px] " />
-              <img src={Usersix} alt="User" className="lg:absolute lg:right-[33px] lg:w-[50.4px] lg:h-[50.4px] absolute left-[75px] w-[16.25px]
+              <img src={Usersix} alt="User" className="lg:absolute lg:left-[206px] lg:w-[50.4px] lg:h-[50.4px] absolute left-[75px] w-[16.25px]
               h-[16.22px] " />
-              <img src={Adduser} alt="User" className="lg:absolute lg:right-[-10px] lg:w-[50.4px] lg:h-[50.4px] absolute left-[87px] w-[16.25px]
+              <img src={Adduser} alt="User" className="lg:absolute lg:left-[247px] lg:w-[50.4px] lg:h-[50.4px] absolute left-[87px] w-[16.25px]
               h-[16.22px] " />
             </div>
 
@@ -245,7 +245,7 @@ height: 16.25552749633789; */}
         <img src={Worldbank} alt="" className="lg:w-[140.9px] lg:h-[40.3px] w-[45.7px] h-[13.42px] " />
       </div>
       {/* Streamline Section Starts  */}
-      <div className='lg:w-100wv lg:h-[275px] lg:top-[1329px] lg:bg-transparent lg:mx-auto lg:mt-0 lg:mb-32 lg:flex lg:items-center lg:justify-center 
+      <div className='lg:w-full lg:h-[275px] lg:top-[1329px] lg:bg-transparent lg:mx-auto lg:mt-0 lg:mb-32 lg:flex lg:items-center lg:justify-center 
       w-[390px] h-[90.3px] bg:transparent flex items-center justify-center mx-auto mt-6  '>
         <div className='lg:w-[766px] lg:h-[156px] lg:top-[60px] lg:left-[317px] lg:bg-transparent lg:flex lg:items-center lg:justify-center
         w-[330px] h-[70px]  top-[0px] flex justify-center text-center bg:transparent'>
@@ -269,7 +269,7 @@ text-align: center; */}
       {/* Streamline Section Ends */}
 
       {/* About Me Section Starts */}
-      <section id="about" className="lg:w-[1400px] lg:bg-transparent lg:h-[1105px] lg:mb-0 lg:top-[1634px] lg:mt-3 lg:bg-transaprent lg:flex-col lg:mx-auto lg:justify-center
+      <section id="about" className="lg:w-full lg:bg-transparent lg:h-[1105px] lg:mb-0 lg:top-[1634px] lg:mt-3 lg:bg-transaprent lg:flex-col lg:mx-auto lg:justify-center
        w-[430px] h-[1250px] bg-transparent mb-0">
         <div className='lg:w-[50px] lg:h-[2px] lg:flex  lg:bg-transparent lg:mx-auto lg:mb-4 lg:mt-[-120px]  bg-transparent w-[50px] h-[2px]
         flex  mx-auto ' >
@@ -297,7 +297,7 @@ text-align: center; */}
           </div>
         </div>
 
-        <div className="lg:w-[1400px] lg:h-[1000px] lg:bg-transparent lg:mb-0  lg:mt-9 lg:flex lg:mx-auto lg:justify-around lg:items-center 
+        <div className="lg:w-full  lg:h-[1000px] lg:bg-transparent lg:mb-0  lg:mt-9 lg:flex lg:mx-auto lg:justify-around lg:items-center 
         w-[390px] h-[1070px] rounded-md flex lg:flex-row flex-col bg-transparent mt-10 mb-40 mx-auto ">
 
           <div className="lg:w-[560px] lg:h-[1000px]  lg:left-[89px] lg:bg-transparent w-[390px] h-[460.02px] lg:rounded-none rounded-lg
@@ -358,11 +358,14 @@ text-align: center; */}
                 </div>
               </div>
 
-              <div className='lg:w-[490px] lg:h-[309px] lg:top-[478px] lg:mt-8 lg:left-[767px] lg:gap-[24px] lg:bg-transparent
-  lg:flex-col lg:justify-evenly bg-violet-300 w-[390px] h-[900px] flex flex-col items-center justify-center mt-[-15px] '>
+              {/* <div className='lg:w-[490px] lg:h-[309px] lg:top-[478px] lg:mt-8 lg:left-[767px] lg:gap-[24px] lg:bg-transparent
+  lg:flex-col lg:justify-evenly bg-violet-300 w-[390px] h-[900px] flex flex-col items-center justify-center mt-[-15px] '> */}
+
+    <div className='lg:w-[490px] lg:h-[309px] lg:top-[478px] lg:mt-8 lg:left-[767px] lg:gap-[24px] lg:bg-transparent
+  lg:flex-col lg:justify-evenly bg-transparent w-[390px] h-[900px] flex flex-col items-center justify-center mt-[-15px]'>
 
                 <div className="lg:w-[489px] lg:h-[70px] lg:mb-4 lg:rounded-lg lg:bg-[#DCF4FD] lg:flex lg:items-center
-                 lg:justify-evenly w-[390px] h-[55.15px] flex items-center lg:pl-0 pl-2 rounded-lg bg-[#DCF4FD] ">
+                 lg:justify-evenly w-[390px] h-[55.15px] flex items-center lg:pl-0 pl-2 rounded-lg mb-2 bg-[#DCF4FD] ">
                   <div className="lg:w-[57px] lg:h-[42px] lg:top-[26px] lg:left-[18px] lg:rounded-md lg:bg-transparent lg:mr-0 mr-2">
                     <img src={Heart} alt="" className="lg:w-[57px] lg:h-[42px]" />
                   </div>
@@ -372,7 +375,7 @@ text-align: center; */}
 
                 </div>
 
-                <div className="lg:w-[489px] lg:h-[70px]   lg:mb-4 lg:rounded-lg lg:bg-[#DCF4FD] lg:flex lg:items-center lg:justify-evenly
+                <div className="lg:w-[489px] lg:h-[70px] mb-2 lg:mb-4 lg:rounded-lg lg:bg-[#DCF4FD] lg:flex lg:items-center lg:justify-evenly
                 w-[390px] h-[55.15px] flex items-center lg:pl-0 pl-2 rounded-lg bg-[#DCF4FD]">
                   
                   <div className="lg:w-[57px] lg:h-[42px] lg:top-[26px] lg:left-[18px] lg:rounded-md lg:bg-transparent lg:mr-0 mr-2">
@@ -384,7 +387,7 @@ text-align: center; */}
 
                 </div>
 
-                <div className="lg:w-[489px] lg:h-[70px] lg:rounded-lg lg:bg-[#DCF4FD] lg:flex lg:items-center lg:justify-evenly 
+                <div className="lg:w-[489px] lg:h-[70px] mb-2 lg:rounded-lg lg:bg-[#DCF4FD] lg:flex lg:items-center lg:justify-evenly 
                 w-[390px] h-[55.15px] flex items-center lg:pl-0 pl-2 rounded-lg bg-[#DCF4FD]">
                   <div className="lg:w-[57px] lg:h-[42px] lg:top-[26px] lg:left-[18px] lg:rounded-md lg:bg-transparent lg:mr-0 mr-2">
                     <img src={People} alt="" className="lg:w-[57px] lg:h-[42px]" />
@@ -394,6 +397,7 @@ text-align: center; */}
                   </div>
 
                 </div>
+                
               </div>
 
                    <div className="lg:w-[560px] block lg:hidden lg:h-[301px] lg:top-[959px] lg:mt-8 lg:left-[89px] lg:rounded-xl lg:bg-transparent mt-7">
@@ -404,7 +408,7 @@ text-align: center; */}
 
             <div className="lg:w-[490px] lg:h-[250px] lg:top-[983px] lg:left-[769px] lg:mt-[59px] lg:gap-[39px] lg:bg-transparent mt-[440px]
             w-[390px] h-[97.7px] bg-transparent">
-              <div className="lg:w-[490px] lg:h-[133px] lg:gap-[16px] lg:bg-transparent w-[390px] h-[70px] bg-transparent">
+              <div className="lg:w-[490px] lg:h-[133px] lg:gap-[16px] lg:bg-transparent  lg:mt-0 mt-4 w-[390px] h-[70px] bg-transparent">
                 <h3 className="lg:font-normal lg:text-[28px] lg:leading-[100%] lg:space-[0%] lg:text-[#266075] font-medium text-[16.51px] text-left
                 lg:text-left text-[#266075]">Empowering businesses, connecting talent</h3>
                 <h3 className="lg:font-light lg:text-[18px] lg:text-left lg:mt-4 lg:space-[-2%] 
@@ -428,7 +432,7 @@ text-align: center; */}
       {/* About Me Section Ends */}
 
       {/* Hire Section Starts  lg:h-[836px]  lg:bg-[#FAFAFA] */}
-      <section id='hire' className="lg:w-[1400px] lg:h-[780px] lg:top-[3024px] lg:bg-[#FAFAFA] lg:mx-auto lg:flex lg:flex-col 
+      <section id='hire' className="lg:w-full lg:h-[780px] lg:top-[3024px] lg:bg-[#FAFAFA] lg:mx-auto lg:flex lg:flex-col 
 lg:justify-center lg:mt-12 lg:mb-0 mb-6 mt-6 w-[390px] h-[760px] bg-tranasparent flex flex-col mx-auto">
 
    <div className='lg:w-[50px] lg:h-[2px] lg:flex  lg:mx-auto lg:mb-4 lg:mt-[-120px] ' >
@@ -495,7 +499,7 @@ lg:justify-center w-[390px] h-[35.9px] bg-transparent flex flex-col items-center
       {/* Hire Section Ends*/}
 
       {/* Expertise Section Starts */}
-      <section className="lg:w-[1400px] lg:h-[660px]   lg:bg-[#FFFFFF] lg:flex lg:flex-col 
+      <section className="lg:w-full lg:h-[660px] lg:bg-[#FFFFFF] lg:flex lg:flex-col 
 lg:justify-center lg:mb-0 mb-6 bg-transparent w-[390px] h-[670px] mx-auto">
         <div className="lg:w-[400px] lg:h-[60px] lg:mt-[-100px] lg:bg-transparent lg:mb-0 lg:flex lg:flex-col  lg:items-center lg:mx-auto lg:justify-center 
         lg:gap-[16px] w-[390px] h-[35.04px] mb-8 flex flex-col justify-center items-center bg-transparent">
@@ -545,7 +549,7 @@ lg:justify-center lg:mb-0 mb-6 bg-transparent w-[390px] h-[670px] mx-auto">
       {/* Expertise Section Starts */}
 
       {/* Work Section Ends */}
-      <section className='lg:w-[1400px] lg:h-[900px] lg:bg-[#FAFAFA] lg:flex lg:flex-col lg:mx-auto mb-8 bg-transparent w-[390px] h-[1190px]
+      <section className='lg:w-full lg:h-[900px] lg:bg-[#FAFAFA] lg:flex lg:flex-col lg:mx-auto mb-8 bg-transparent w-[390px] h-[1190px]
       flex flex-col items-center mx-auto '>
         <div className='lg:w-[50px] lg:h-[2px] lg:flex  lg:mx-auto lg:mb-4 ' >
           <div className='lg:w-[19px] lg:h-[2px] lg:bg-[#01B0F1] lg:flex lg:flex-col lg:mx-auto lg:mt-4'>
@@ -603,8 +607,8 @@ lg:justify-center lg:mb-0 mb-6 bg-transparent w-[390px] h-[670px] mx-auto">
 
 
       {/* Focus Section Starts */}
-      <section className='lg:w-[1400px]  lg:h-[680px] lg:bg-transparent lg:flex lg:flex-col lg:mx-auto 
-      mb-6 bg-yellow-400 w-[390px] h-[1200px] flex flex-col items-center mx-auto'>
+      <section className='lg:w-full lg:h-[680px] lg:bg-transparent lg:flex lg:flex-col lg:mx-auto 
+      mb-6 bg-transparent w-[390px] h-[460px] flex flex-col items-center mx-auto'>
         <div className='lg:w-[50px] lg:h-[2px] lg:flex  lg:mx-auto lg:mb-4 ' >
           <div className='lg:w-[19px] lg:h-[2px] lg:bg-[#01B0F1] lg:flex lg:flex-col lg:mx-auto lg:mt-4'>
           </div>
@@ -613,28 +617,32 @@ lg:justify-center lg:mb-0 mb-6 bg-transparent w-[390px] h-[670px] mx-auto">
         </div>
 
         <div className='lg:w-[840px] lg:h-[71px] lg:gap-[8px] lg:bg-transparent lg:flex lg:flex-col lg:mx-auto lg:mt-4
-         w-[390px] h-[35.04px] mb-8 flex flex-col justify-center items-center bg-green-500'>
-          <div className='lg:w-[840px] lg:h-[39px] lg:bg-transparent'>
-            <h3 className='lg:font-medium lg:text-[32px] lg:leading-[100%] lg:text-center lg:text-[#00B0F0]'>Our Focus Areas</h3>
+         w-[390px] h-[35.04px] mb-5 flex flex-col justify-center items-center bg-transparent'>
+          <div className='lg:w-[840px] lg:h-[39px] lg:bg-transparent flex flex-col items-center justify-center
+          w-[370px] h-[17px]'>
+            <h3 className='lg:font-medium lg:text-[32px] lg:leading-[100%] lg:text-center lg:text-[#00B0F0]
+              font-medium text-[15.39px] leading-[100%] text-center text-[#00B0F0]'>Our Focus Areas</h3>
             <div className='lg:w-[762px] lg:h-[24px] lg:bg-transparent lg:flex lg:flex-col lg:mx-auto lg:text-center lg:text-[#266075] lg:mt-2'>
-              <h3>Key industries we serve!</h3>
+               <h3 className='lg:font-normal lg:text-[16px] lg:leading-[100%] lg:text-center font-normal text-[12px] leading-[100%] text-center mt-1 text-[#266075]'>Key industries we serve!</h3>
             </div>
           </div>
         </div>
 
-        <div className='lg:w-[1000px] lg:h-[345px] lg:bg-transparent lg:mx-auto lg:mt-[60px] lg:flex lg:justify-between '>
+        <div className='lg:w-[1000px] lg:h-[345px] lg:bg-transparent lg:mx-auto lg:mt-[60px] lg:flex lg:justify-between bg-transparent'>
           {visibleProfiles.map((profile) => {
             return (
               <div
                 key={profile.id}
-                className='lg:w-[300px] lg:h-[345px] lg:rounded-lg lg:pr-[13px] lg:pl-[9px] lg:pt-[9px] lg:bg-[#DCF4FD] '>
-                <img src={profile.picture} alt='profile' className='lg:flex lg:justify-center lg:items-center' />
-                <div className='lg:bg-[282px] lg:h-[30px] lg:mt-2'>
-                  <h3 className='lg:font-normal lg:text-[18px] lg:leading-[100%] lg:capitalize lg:text-[#266075]'>{profile.text}</h3>
+                className='lg:w-[300px] lg:h-[345px] lg:rounded-lg lg:pr-[13px] lg:pl-[9px] lg:pt-[9px]
+                 lg:bg-[#DCF4FD] bg-[#DCF4FD]   w-[360px] h-[366px] rounded-lg pr-[0px] pl-[0px] flex flex-col  '>
+                <img src={profile.picture} alt='profile' className='lg:flex lg:justify-center lg:items-center flex items-center justify-center' />
+                <div className='lg:bg-[282px] lg:h-[30px] lg:mt-2 w-[330px] h-[26px] mt-2 bg-transparent flex items-center'>
+                  <h3 className='lg:font-normal lg:text-[18px] lg:leading-[100%] lg:capitalize lg:text-[#266075]
+                  font-normal text-[12px] capitalize text-[#266075]'>{profile.text}</h3>
                 </div>
-                <div className='lg:w-[103px] lg:h-[27px] lg:text-[16px]'>
+                <div className='lg:w-[103px] lg:h-[27px] lg:text-[16px] w-[330px] h-[24px] bg-transparent'>
                   <p className='lg:font-normal lg:text-[16px] lg:capitalize lg:underline lg:decoration-solid lg:decoration-0
- lg:underline-offset-0 lg:text-[#92A3A9]'>{profile.subtext}</p>
+ lg:underline-offset-0 lg:text-[#92A3A9] font-normal text-[12px] capitalize underline decoration-solid underline-offset-0 text-[#00B0F0]'>{profile.subtext}</p>
                 </div>
               </div>
             )
@@ -642,15 +650,15 @@ lg:justify-center lg:mb-0 mb-6 bg-transparent w-[390px] h-[670px] mx-auto">
         </div>
 
         <div className='lg:flex lg:justify-around lg:items-center lg:mt-3 lg:w-[100px] lg:h-[50px] 
-lg:mx-auto'>
-          <button onClick={handlePrev} className='lg:underline-offset-0'> Prev </button>
-          <button onClick={handleNext} className='lg:underline-offset-0'>Next </button>
+lg:mx-auto flex justify-between items-center mt-2 w-[80px] h-[38px] bg-transparent text-[#266075] lg:text-[18px]'>
+          <button onClick={handlePrev} className='lg:underline-offset-0 underline-offset-0 lg-text-[18px] text-[12px]'> Prev </button>
+          <button onClick={handleNext} className='lg:underline-offset-0 underline-offset-0 lg-text-[18px] text-[12px]'>Next </button>
         </div>
       </section>
       {/* Focus Section Ends */}
 
       {/* Case Study Starts */}
-      <section className='lg:w-[1400px] lg:h-[750px] lg:bg-transparent lg:flex lg:flex-col lg:mx-auto mb-6 bg-transparent w-[390px] h-[970px] flex flex-col items-center mx-auto'>
+      <section className='lg:w-full lg:h-[750px] lg:bg-transparent lg:flex lg:flex-col lg:mt-0 lg:mx-auto mb-6 bg-transparent mt-8 w-[390px] h-[970px] flex flex-col items-center mx-auto'>
         <div className='lg:w-[50px] lg:h-[2px] lg:flex  lg:mx-auto lg:mb-4 ' >
          
           <div className='lg:w-[19px] lg:h-[2px] lg:bg-[#01B0F1] lg:flex lg:flex-col lg:mx-auto lg:mt-4'>
@@ -720,9 +728,9 @@ lg:mx-auto'>
       {/* Case Study Ends */}
 
       {/* Testimonials Starts */}
-      <section className='lg:w-[1400px] lg:h-[770px] lg:mb-0 lg:bg-[#FAFAFA] lg:flex lg:flex-col
+      <section className='lg:w-full lg:h-[770px] lg:mb-0 lg:bg-[#FAFAFA] lg:flex lg:flex-col
        w-[430px] h-[910px] bg-transparent flex flex-col mb-10'>
-        <div className='lg:w-[1400px] lg:h-[140px] lg:bg-[#00B0F0] lg:flex lg:mb-0 lg:justify-around lg:items-center
+        <div className='lg:w-full lg:h-[140px] lg:bg-[#00B0F0] lg:flex lg:mb-0 lg:justify-around lg:items-center
         w-[430px] h-[50px] bg-[#00B0F0] flex justify-around mb-4 items-center mx-auto'>
           <div className='lg:w-[270px] lg:h-[92px] lg:bg-transparent lg:flex lg:justify-center lg:items-center
           w-[160px] h-[50px] bg-transparent flex justify-center items-center'>
@@ -792,7 +800,7 @@ gap: 3.62px; */}
       {/* Testimonials Ends*/}
 
       {/* Faq Section Starts */}
-      <section id='faqs' className='lg:w-[1400px] lg:h-[475px] lg:bg-transparent lg:flex lg:flex-col lg:items-center
+      <section id='faqs' className='lg:w-full lg:h-[475px] lg:bg-transparent lg:flex lg:flex-col lg:items-center
         w-[430px] h-[370px] bg-transparent flex flex-col mb-10'>
         <div className='lg:w-[50px] lg:h-[2px] lg:flex lg:mx-auto lg:mb-4 ' >
           <div className='lg:w-[19px] lg:h-[2px] lg:bg-[#01B0F1] lg:flex lg:flex-col lg:mx-auto lg:mt-4'>
@@ -852,12 +860,12 @@ text-align: center; */}
       {/* Faq Section Ends */}
 
        {/* Newsletter Starts  bg-green-200*/}
-      <section id='contact' className='lg:w-[1400px] lg:h-[820px] lg:bg-transparent lg:mx-0  lg:mb-9 mb-9 mx-auto w-[390px] h-[570px]
+      <section id='contact' className='lg:w-full lg:h-[820px] lg:bg-transparent lg:mx-0  lg:mb-9 mb-9 mx-auto w-[390px] h-[570px]
        bg-transparent'>
-        <div className='lg:w-[1400px] lg:h-[390px] lg:bg-transparent lg:relative w-[390px] h-[141px] relative'>
+        <div className='lg:w-full lg:h-[390px] lg:bg-transparent lg:relative w-[390px] h-[141px] relative'>
           <img src={Hands} alt="Hands" className='lg:w-full lg:h-[390px] lg:opacity-95 w-[390px] h-[141px] opacity-95' />
           <div className='lg:w-[800px] lg:h-[231px] lg:rounded-lg lg:p-3 lg:bg-[#DCF4FD] lg:flex  lg:flex-col lg:mx-auto
-           lg:absolute lg:top-[63px] lg:left-[290px] w-[310px] h-[110px] rounded-lg p-3 bg-[#DCF4FD] flex flex-col mx-auto absolute
+           lg:absolute lg:top-[63px] lg:left-[230px] w-[310px] h-[110px] rounded-lg p-3 bg-[#DCF4FD] flex flex-col mx-auto absolute
            top-[15px] left-[38px]'>
             
             <div className='lg:w-[709px] lg:h-[90px] lg:bg-transparent lg:flex lg:flex-col lg:mx-auto w-[250px] h-[40px]
@@ -870,7 +878,7 @@ text-align: center; */}
               <div className='lg:w-[709px] lg:h-[48px] lg:bg-transparent lg:mt-0 mt-1 w-[250px] h-[20px] bg-transparent' >
 
                 <h3 className='lg:font-normal lg:text-[16px] lg:block hidden lg:text-center lg:text-[#266075] font-normal text-[12px]
-                leading-[100%] text-center'>Stay ahead in your career with our expert insights, industry trends, and exclusive job opportunities get
+                 text-center'>Stay ahead in your career with our expert insights, industry trends, and exclusive job opportunities get
                   it delivered straight to your inbox.</h3>
                     <h3 className='lg:font-normal  lg:hidden block lg:text-[16px] lg:text-center lg:text-[#266075] font-normal text-[12px]
                 text-center'>Stay ahead in your career with our experts.</h3>
@@ -895,7 +903,7 @@ text-align: center; */}
           </div>
         </div >
 
-        <div className='lg:w-[1400px] lg:h-[430px]  lg:bg-transparent  lg:mt-0 lg:flex  lg:flex-col lg:items-center lg:justify-evenly
+        <div className='lg:w-full lg:h-[430px]  lg:bg-transparent  lg:mt-0 lg:flex  lg:flex-col lg:items-center lg:justify-evenly
         w-[390px] h-[420px] flex flex-col justify-center items-center bg-transparent mt-0'>
         <div className='lg:w-[900px] lg:h-[300px] lg:bg-transparent lg:flex lg:flex-col lg:justify-between w-[390px] h-[540px] flex flex-col 
         justify-center bg-transparent mt-4'>
@@ -949,19 +957,19 @@ height: 30; */}
            
             <div className='lg:w-[95px] lg:h-[27px] lg:bg-transparent lg:flex lg:items-center w-[95px] h-25px] bg-transparent
             flex items-center '>
-            <h3 className='lg:font-normal lg:text-[20px] lg:leading-[100%] lg:capitalize lg:text-[#266075]
+            <h3 className='lg:font-normal lg:text-[18px] lg:leading-[100%] lg:capitalize lg:text-[#266075]
             font-normal text-[16px] capitalize text-[#266075]'>Company</h3> 
             </div>
             <div className='lg:w-[95px] lg:h-[27px] lg:bg-transparent lg:flex lg:items-center w-[95px] h-25px] flex items-center'>
-            <h3 className='lg:font-light lg:text-[13px] lg:leading-[100%] lg:capitalize lg:text-[#266075]
+            <h3 className='lg:font-light lg:text-[16px] lg:leading-[100%] lg:capitalize lg:text-[#266075]
             font-normal text-[13px] capitalize text-[#266075]'>About Us</h3> 
             </div>
             <div className='lg:w-[95px] lg:h-[27px] lg:bg-transparent lg:flex lg:items-center  w-[95px] h-25px] flex items-center '>
-            <h3 className='lg:font-light lg:text-[18px] lg:leading-[100%] lg:capitalize lg:text-[#266075]   font-normal text-[13px] capitalize text-[#266075]'>Our Vision</h3> 
+            <h3 className='lg:font-light lg:text-[16px] lg:leading-[100%] lg:capitalize lg:text-[#266075]   font-normal text-[13px] capitalize text-[#266075]'>Our Vision</h3> 
             </div>
 
             <div className='lg:w-[95px] lg:h-[27px] lg:bg-transparent lg:flex lg:items-center  w-[95px] h-25px] flex items-center '>
-            <h3 className='lg:font-light lg:text-[18px] lg:leading-[100%] lg:capitalize lg:text-[#266075] font-normal text-[13px] capitalize text-[#266075]'>Blog</h3> 
+            <h3 className='lg:font-light lg:text-[16px] lg:leading-[100%] lg:capitalize lg:text-[#266075] font-normal text-[13px] capitalize text-[#266075]'>Blog</h3> 
             </div>
 
             </div>
@@ -970,21 +978,21 @@ height: 30; */}
             w-[95px] h-[110px] bg-transparent flex flex-col justify-between'>
             <div className='lg:w-[95px] lg:h-[27px] lg:bg-transparent lg:flex lg:items-center  w-[95px] h-25px] bg-transparent
             flex items-center'>
-            <h3 className='lg:font-normal lg:text-[16px] lg:leading-[100%] lg:capitalize lg:text-[#266075]
-             font-normal text-[18px] capitalize text-[#266075]'>Talent</h3> 
+            <h3 className='lg:font-normal lg:text-[18px] lg:leading-[100%] lg:capitalize lg:text-[#266075]
+             font-normal text-[16px] capitalize text-[#266075]'>Talent</h3> 
 
             </div>
             <div className='lg:w-[95px] lg:h-[27px] lg:bg-transparent lg:flex lg:items-center  w-[95px] h-25px] flex items-center'>
-            <h3 className='lg:font-light lg:text-[18px] lg:leading-[100%] lg:capitalize lg:text-[#266075] font-normal text-[13px] capitalize text-[#266075]'>Onboarding</h3> 
+            <h3 className='lg:font-light lg:text-[16px] lg:leading-[100%] lg:capitalize lg:text-[#266075] font-normal text-[13px] capitalize text-[#266075]'>Onboarding</h3> 
             </div>
 
 
             <div className='lg:w-[95px] lg:h-[27px] lg:bg-transparent lg:flex lg:items-center  w-[95px] h-25px] flex items-center  '>
-            <h3 className='lg:font-light lg:text-[18px] lg:leading-[100%] lg:capitalize lg:text-[#266075] font-normal text-[13px] capitalize text-[#266075]'>Policies</h3> 
+            <h3 className='lg:font-light lg:text-[16px] lg:leading-[100%] lg:capitalize lg:text-[#266075] font-normal text-[13px] capitalize text-[#266075]'>Policies</h3> 
             </div>
 
             <div className='lg:w-[95px] lg:h-[27px] lg:bg-transparent lg:flex lg:items-center  w-[95px] h-25px] flex items-center'>
-            <h3 className='lg:font-light lg:text-[18px] lg:leading-[100%] lg:capitalize lg:text-[#266075] font-normal text-[13px] capitalize text-[#266075]'>FAQs</h3> 
+            <h3 className='lg:font-light lg:text-[16px] lg:leading-[100%] lg:capitalize lg:text-[#266075] font-normal text-[13px] capitalize text-[#266075]'>FAQs</h3> 
             </div>
 
             </div>
