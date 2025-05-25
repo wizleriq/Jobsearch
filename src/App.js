@@ -339,9 +339,9 @@ text-align: center; */}
           </div>
 
           <div className="lg:w-[490px] lg:h-[958px] lg:top-[252px] lg:left-[89px] lg:flex-col lg:bg-transaprent 
-          w-[390px] h-[900px] bg-transparent  flex flex-col lg:mb-0  mb-10">
+          w-[390px] h-[1400px] bg-transparent flex flex-col lg:mb-0  mb-10">
             <div className="lg:w-[490px] lg:h-[556px] lg:top-[22px lg:left-[89px] lg:flex-col lg:bg-transaprent
-            w-[390px] h-[40px] flex flex-col bg-transparent ">
+            w-[390px] h-[270px] flex flex-col bg-transparent ">
 
               <div className="lg:w-[490px] lg:h-[115px] lg:top-[289px] lg:left-[767px] lg:gap-[16px] lg:bg-transaprent lg:mt-6
               lg:mb-0 mb-8 w-[390px] h-[40.4px] bg-transparent">
@@ -352,7 +352,7 @@ text-align: center; */}
                 </div>
 
                 <div className="lg:w-[490px] lg:h-[44px] lg:bg-transparent lg:mt-0 mt-[-10px] w-[390px] h-[90px]">
-                  <h3 className="lg:font-normal lg:text-[18px] lg:leading-[100%] lg:space-[-2%] lg:text-[#266075] 
+                  <h3 className="lg:font-normal lg:text-[18px]  lg:space-[-2%] lg:text-[#266075] 
                    font-light text-[12px] text-center  text-[#266075] "> We are dedicated to making a positive impact beyond recruitment. Our CSR initiatives include:</h3>
 
                 </div>
@@ -362,7 +362,7 @@ text-align: center; */}
   lg:flex-col lg:justify-evenly bg-violet-300 w-[390px] h-[900px] flex flex-col items-center justify-center mt-[-15px] '> */}
 
     <div className='lg:w-[490px] lg:h-[309px] lg:top-[478px] lg:mt-8 lg:left-[767px] lg:gap-[24px] lg:bg-transparent
-  lg:flex-col lg:justify-evenly bg-transparent w-[390px] h-[900px] flex flex-col items-center justify-center mt-0'>
+  lg:flex-col lg:justify-evenly bg- w-[390px] h-[900px] flex flex-col items-center justify-center mt-0'>
 
                 <div className="lg:w-[489px] lg:h-[70px] lg:mb-4 lg:rounded-lg lg:bg-[#DCF4FD] lg:flex lg:items-center
                  lg:justify-evenly w-[390px] h-[55.15px] flex items-center lg:pl-0 pl-2 rounded-lg mb-2 bg-[#DCF4FD] ">
@@ -399,14 +399,17 @@ text-align: center; */}
                 </div>
                 
               </div>
-
-                   <div className="lg:w-[560px] block lg:hidden lg:h-[301px] lg:top-[959px] lg:mt-8 lg:mb-0  lg:left-[89px] lg:rounded-xl lg:bg-transparent mt-4">
-              <img src={Card} alt="" />
+                   {/* <div className="lg:w-[560px] block lg:hidden lg:h-[301px] lg:top-[959px] lg:mt-8 lg:mb-0  lg:left-[89px] 
+                   lg:rounded-xl lg:bg-green-500 mt-4 w-[390px] h-[280px] rounded-lg bg-transparent"> */}
+                    <div className="block lg:hidden lg:bg-green-500 mt-4 w-[390px] h-[280px] rounded-lg bg-transparent">
+              <img src={Card} alt="" className=' lg:w-[560px] lg:h-[301px] w-[390px] h-[210px]'/>
             </div>
 
             </div>
-
+{/* 
             <div className="lg:w-[490px] lg:h-[250px] lg:top-[983px] lg:left-[769px] lg:mt-[59px] lg:gap-[39px] lg:bg-transparent mt-[440px]
+            w-[390px] h-[97.7px] bg-transparent"> */}
+            <div className="lg:w-[490px] lg:h-[250px] lg:top-[983px] lg:left-[769px] lg:mt-[59px] lg:gap-[39px] lg:bg-transparent mt-[210px]
             w-[390px] h-[97.7px] bg-transparent">
               <div className="lg:w-[490px] lg:h-[133px] lg:gap-[16px] lg:bg-transparent  lg:mt-0 mt-4 w-[390px] h-[70px] bg-transparent">
                 <h3 className="lg:font-normal lg:text-[28px] lg:leading-[100%] lg:space-[0%] lg:text-[#266075] font-medium text-[16.51px] text-left
@@ -419,7 +422,7 @@ text-align: center; */}
 
               <div className="lg:w-[158px] lg:h-[46.2px] lg:mt-6 lg:gap-[8.59px] lg:lg:rounded-lg lg:pt-[12.88px] lg:pr-[26.62px] lg:pb-[12.88px] lg:pl-[26.62px]
  lg:bg-[#00B0F0] lg:flex lg:items-center lg:justify-center w-[80.8px] h-[24.5px] rounded-lg pt-[6.84px] pr-[14.13px] 
- pb-[6.84px] pl-[14.13px] bg-[#00B0F0] flex items-center justify-center">
+ pb-[6.84px] pl-[14.13px] bg-[#00B0F0] flex items-center justify-center mt-[-12px]">
   
 
                 <h3 className="lg:font-medium lg:text-[18px] lg:leading-[100%] lg:space-[0%] lg:text-center lg:capitalize lg:text-[#FFFFFF]
