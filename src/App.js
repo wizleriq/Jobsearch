@@ -348,12 +348,12 @@ text-align: center; */}
 
                 <div className="lg:w-[490px] lg:h-[68px] lg:bg-transparent w-[390px] h-[40px] ">
                   <h3 className="lg:font-medium lg:text-[28px] lg:leading-[100%] lg:space-[0%] lg:text-[#266075]
-                  font-medium text-[16.51px] leading-[100%] text-center  text-[#266075] ">Community & Corporate Social Responsibility (CSR)</h3>
+                  font-medium text-[16.51px] text-center  text-[#266075] ">Community & Corporate Social Responsibility</h3>
                 </div>
 
-                <div className="lg:w-[490px] lg:h-[44px] lg:bg-transparent lg:mt-0 mt-[-61px] w-[390px] h-[90px]">
+                <div className="lg:w-[490px] lg:h-[44px] lg:bg-transparent lg:mt-0 mt-[-10px] w-[390px] h-[90px]">
                   <h3 className="lg:font-normal lg:text-[18px] lg:leading-[100%] lg:space-[-2%] lg:text-[#266075] 
-                   font-light text-[9.89px] text-center leading-[100px] text-[#266075] "> We are dedicated to making a positive impact beyond recruitment. Our CSR initiatives include:</h3>
+                   font-light text-[12px] text-center  text-[#266075] "> We are dedicated to making a positive impact beyond recruitment. Our CSR initiatives include:</h3>
 
                 </div>
               </div>
@@ -362,7 +362,7 @@ text-align: center; */}
   lg:flex-col lg:justify-evenly bg-violet-300 w-[390px] h-[900px] flex flex-col items-center justify-center mt-[-15px] '> */}
 
     <div className='lg:w-[490px] lg:h-[309px] lg:top-[478px] lg:mt-8 lg:left-[767px] lg:gap-[24px] lg:bg-transparent
-  lg:flex-col lg:justify-evenly bg-transparent w-[390px] h-[900px] flex flex-col items-center justify-center mt-[-15px]'>
+  lg:flex-col lg:justify-evenly bg-transparent w-[390px] h-[900px] flex flex-col items-center justify-center mt-0'>
 
                 <div className="lg:w-[489px] lg:h-[70px] lg:mb-4 lg:rounded-lg lg:bg-[#DCF4FD] lg:flex lg:items-center
                  lg:justify-evenly w-[390px] h-[55.15px] flex items-center lg:pl-0 pl-2 rounded-lg mb-2 bg-[#DCF4FD] ">
@@ -400,7 +400,7 @@ text-align: center; */}
                 
               </div>
 
-                   <div className="lg:w-[560px] block lg:hidden lg:h-[301px] lg:top-[959px] lg:mt-8 lg:left-[89px] lg:rounded-xl lg:bg-transparent mt-7">
+                   <div className="lg:w-[560px] block lg:hidden lg:h-[301px] lg:top-[959px] lg:mt-8 lg:mb-0  lg:left-[89px] lg:rounded-xl lg:bg-transparent mt-4">
               <img src={Card} alt="" />
             </div>
 
