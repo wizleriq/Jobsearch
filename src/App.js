@@ -345,8 +345,8 @@ text-align: center; */}
           w-[390px] h-[1400px] bg-transparent flex flex-col lg:mb-0  mb-10">
             <div className="lg:w-[490px] lg:h-[556px] lg:top-[22px lg:left-[89px] lg:flex-col lg:bg-transaprent
             w-[390px] h-[270px] flex flex-col bg-transparent "> */}
-             <div className="lg:w-[490px] lg:h-[958px] lg:top-[252px] lg:left-[89px] lg:flex-col lg:bg-[#ffffff] 
-          w-[390px] h-[1000px] bg-green-500 flex flex-col lg:mb-0  mb-10">
+             <div className="lg:w-[490px] lg:h-[958px] lg:top-[252px] lg:left-[89px] lg:flex-col lg:bg-transparent
+          w-[390px] h-[590px] bg-transparent flex flex-col lg:mb-0  mb-10">
             {/* <div className="lg:w-[490px] lg:h-[556px] lg:top-[22px lg:left-[89px] lg:flex-col lg:bg-transaprent
             w-[390px] h-[270px] flex flex-col bg-red-300 "> */}
 
@@ -367,7 +367,7 @@ text-align: center; */}
               </div>
 
     <div className='lg:w-[490px] lg:h-[309px] lg:top-[478px] lg:mt-8 lg:left-[767px] lg:gap-[24px] lg:bg-transparent
-  lg:flex-col lg:justify-evenly bg- w-[390px] h-[200px] bg-yellow-200 flex flex-col items-center justify-center mt-0'>
+  lg:flex-col lg:justify-evenly bg- w-[390px] h-[200px] bg-transparent flex flex-col items-center justify-center mt-0'>
 
                 <div className="lg:w-[489px] lg:h-[70px] lg:mb-4 lg:rounded-lg lg:bg-[#DCF4FD] lg:flex lg:items-center
                  lg:justify-evenly w-[390px] h-[55.15px] flex items-center lg:pl-0 pl-2 rounded-lg mb-2 bg-[#DCF4FD] ">
@@ -405,9 +405,9 @@ text-align: center; */}
                 
               </div>
                    
-                    {/* <div className="block lg:hidden lg:bg-green-500 mt-4 w-[390px] h-[280px] rounded-lg bg-transparent">
+                    <div className="block lg:hidden lg:bg-green-500 mt-4 w-[390px] h-[280px] rounded-lg bg-transparent">
               <img src={Card} alt="" className=' lg:w-[560px] lg:h-[301px] w-[390px] h-[210px]'/>
-            </div> */}
+            </div>
 
             {/* </div> */}
 {/* 
@@ -441,7 +441,7 @@ text-align: center; */}
 
       {/* Hire Section Starts  lg:h-[836px]  lg:bg-[#FAFAFA] */}
       <section id='hire' className="lg:w-full lg:h-[780px] lg:top-[3024px] lg:bg-[#FAFAFA] lg:mx-auto lg:flex lg:flex-col 
-lg:justify-center lg:mt-12 lg:mb-0 mb-6 mt-6 w-[390px] h-[760px] bg-tranasparent flex flex-col mx-auto">
+lg:justify-center lg:mt-12 lg:mb-0 mb-4 mt-6 w-[390px] h-[760px] bg-tranasparent flex flex-col mx-auto">
 
    <div className='lg:w-[50px] lg:h-[2px] lg:flex  lg:mx-auto lg:mb-4 lg:mt-[-120px] ' >
           <div className='lg:w-[19px] lg:h-[2px] lg:bg-[#01B0F1] lg:flex lg:flex-col lg:mx-auto lg:mt-4'>
@@ -509,7 +509,7 @@ lg:justify-center w-[390px] h-[35.9px] bg-transparent flex flex-col items-center
 
       {/* Expertise Section Starts */}
       <section className="lg:w-full lg:h-[660px] lg:bg-[#FFFFFF] lg:flex lg:flex-col 
-lg:justify-center lg:mb-0 mb-6 bg-transparent w-[390px] h-[670px] mx-auto lg:mt-0 mt-10">
+lg:justify-center lg:mb-0 mb-6 bg-transparent w-[390px] h-[670px] mx-auto lg:mt-0 mt-5">
         <div className="lg:w-[400px] lg:h-[60px] lg:mt-[-100px] lg:bg-transparent lg:mb-0 lg:flex lg:flex-col  lg:items-center lg:mx-auto lg:justify-center 
         lg:gap-[16px] w-[390px] h-[35.04px] mb-8 flex flex-col justify-center items-center bg-transparent">
           {/* <div className="lg:w-[400px] lg:min-h-[70px] lg:mt-10 lg:flex lg:flex-col lg:items-center lg:mx-auto lg:justify-center lg:gap-2 lg:bg-green-500"> */}
@@ -927,7 +927,7 @@ text-align: center; */}
           w-[180px] h-[42.4px] bg-[#00B0F0] flex items-center justify-center'>
          <h3 className='lg:w-[214px] lg:h-[29px] lg:font-semibold lg:text-[23.5px] 
          lg:flex lg:items-center lg:justify-center lg:leading-[100%] lg:capitalize lg:text-[#FFFFFF] font-medium
-         text-[20px] leading-[100%] text-capitalize text-[#FFFFFF]'>Urgent! hire jobs</h3>
+         text-[20px] leading-[100%] text-capitalize text-[#FFFFFF]'>Urgent! Hire Jobs</h3>
       </div>
       <div className='lg:w-[538px] lg:h-[60px]  lg:mt-[-50px]  lg:transparent mt-3 w-[380px] h-[60px] bg-transparent'>
      <h3 className='lg:font-light lg:text-[18px] lg:text-[#266075] font-light text-[13px] text-[#266075]'> Urgent! Hire Jobs, LLC – Where Talent Meets Opportunity. we are more than a staffing agency we are a strategic partner in talent acquisition.</h3>
@@ -1000,9 +1000,9 @@ height: 30; */}
             <h3 className='lg:font-light lg:text-[16px] lg:leading-[100%] lg:capitalize lg:text-[#266075] font-normal text-[13px] capitalize text-[#266075]'>Policies</h3> 
             </div>
 
-            <div className='lg:w-[95px] lg:h-[27px] lg:bg-transparent lg:flex lg:items-center  w-[95px] h-25px] flex items-center'>
-            <h3 className='lg:font-light lg:text-[16px] lg:leading-[100%] lg:capitalize lg:text-[#266075] font-normal text-[13px] capitalize text-[#266075]'>FAQs</h3> 
-            </div>
+            <ul className='lg:w-[95px] lg:h-[27px] lg:bg-transparent lg:flex lg:items-center  w-[95px] h-25px] flex items-center'>
+            <a href='#faqs'><li className='lg:font-light lg:text-[16px] lg:leading-[100%] lg:capitalize lg:text-[#266075] font-normal text-[13px] capitalize text-[#266075]'>FAQs</li></a>
+            </ul>
 
             </div>
           </div>
@@ -1010,7 +1010,7 @@ height: 30; */}
           
           <div className='lg:w-[450.29px] lg:h-[21px] lg:mt-10 lg:bg-transparent lg:flex lg:items-center lg:justify-center 
           lg:mx-auto mt-3 w-[310px] h-[24px] bg-transparent flex item-center mx-auto '>
-            <h3 className='lg:font-light lg:text-[17.59px] lg:leading-[100%] lg:text-[#266075] font-light text-[13px] text-[#266075]
+            <h3 className='lg:font-light lg:text-[17.59px] lg:leading-[100%] lg:text-[#266075] font-light text-[12px] text-[#266075]
             '> 
               Copyright 2024 Urgent! Hire Jobs S.L All rights reserved.</h3>  
              
