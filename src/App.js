@@ -83,6 +83,9 @@ const ProfilesComponent = () => {
   };
 
   const visibleProfiles = profiles.slice(currentIndex, currentIndex + itemsPerPage);
+
+  // const [isOpen, setIsOpen] = useState(false)
+
   
 
   // function App() {
@@ -269,7 +272,7 @@ text-align: center; */}
       {/* Streamline Section Ends */}
 
       {/* About Me Section Starts */}
-      <section id="about" className="lg:w-full lg:bg-transparent lg:h-[1105px] lg:mb-0 lg:top-[1634px] lg:mt-3 lg:bg-transaprent lg:flex-col lg:mx-auto lg:justify-center
+      {/* <section id="about" className="lg:w-full lg:bg-transparent lg:h-[1105px] lg:mb-0 lg:top-[1634px] lg:mt-3 lg:bg-transaprent lg:flex-col lg:mx-auto lg:justify-center
        w-[430px] h-[1250px] bg-transparent mb-0">
         <div className='lg:w-[50px] lg:h-[2px] lg:flex  lg:bg-transparent lg:mx-auto lg:mb-4 lg:mt-[-120px]  bg-transparent w-[50px] h-[2px]
         flex  mx-auto ' >
@@ -306,7 +309,7 @@ text-align: center; */}
             w-[390px] h-[450.02px] rounded-lg bg-transparent ">
               <div className="lg:w-[560px] lg:h-[510px] lg:pt-[15px] lg:pr-[15px] lg:pl-[15px] lg:rounded-xl lg:bg-[#EFEFEF]
               w-[390px] h-[400.22px] pt[8.14px] pr-[5px] pl-[5px] flex flex-col bg-[#EFEFEF]">
-                {/* pt[8.14px] pr-[8.14px] pl-[8.14px] */}
+              
                 <div className="lg:w-[530px] lg:h-[398px] lg:rounded-xl lg-border-[1px] lg:bg-[#ffffff] lg:flex lg:items-center lg:justify-center
                 w-[380px] h-[340px] rounded-xl bg-[#ffffff] flex items-center justify-center">
                   <div className="lg:w-[489px] lg:h-[99.4px] lg-[148.85px] lg:left-[23px] lg:bg-transparent lg:flex lg:items-center lg:justify-center
@@ -357,10 +360,6 @@ text-align: center; */}
 
                 </div>
               </div>
-
-              {/* <div className='lg:w-[490px] lg:h-[309px] lg:top-[478px] lg:mt-8 lg:left-[767px] lg:gap-[24px] lg:bg-transparent
-  lg:flex-col lg:justify-evenly bg-violet-300 w-[390px] h-[900px] flex flex-col items-center justify-center mt-[-15px] '> */}
-
     <div className='lg:w-[490px] lg:h-[309px] lg:top-[478px] lg:mt-8 lg:left-[767px] lg:gap-[24px] lg:bg-transparent
   lg:flex-col lg:justify-evenly bg- w-[390px] h-[900px] flex flex-col items-center justify-center mt-0'>
 
@@ -399,16 +398,13 @@ text-align: center; */}
                 </div>
                 
               </div>
-                   {/* <div className="lg:w-[560px] block lg:hidden lg:h-[301px] lg:top-[959px] lg:mt-8 lg:mb-0  lg:left-[89px] 
-                   lg:rounded-xl lg:bg-green-500 mt-4 w-[390px] h-[280px] rounded-lg bg-transparent"> */}
+                   
                     <div className="block lg:hidden lg:bg-green-500 mt-4 w-[390px] h-[280px] rounded-lg bg-transparent">
               <img src={Card} alt="" className=' lg:w-[560px] lg:h-[301px] w-[390px] h-[210px]'/>
             </div>
 
             </div>
-{/* 
-            <div className="lg:w-[490px] lg:h-[250px] lg:top-[983px] lg:left-[769px] lg:mt-[59px] lg:gap-[39px] lg:bg-transparent mt-[440px]
-            w-[390px] h-[97.7px] bg-transparent"> */}
+
             <div className="lg:w-[490px] lg:h-[250px] lg:top-[983px] lg:left-[769px] lg:mt-[59px] lg:gap-[39px] lg:bg-transparent mt-[210px]
             w-[390px] h-[97.7px] bg-transparent">
               <div className="lg:w-[490px] lg:h-[133px] lg:gap-[16px] lg:bg-transparent  lg:mt-0 mt-4 w-[390px] h-[70px] bg-transparent">
@@ -431,7 +427,7 @@ text-align: center; */}
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* About Me Section Ends */}
 
       {/* Hire Section Starts  lg:h-[836px]  lg:bg-[#FAFAFA] */}
