@@ -272,7 +272,7 @@ text-align: center; */}
       {/* Streamline Section Ends */}
 
       {/* About Me Section Starts */}
-      {/* <section id="about" className="lg:w-full lg:bg-transparent lg:h-[1105px] lg:mb-0 lg:top-[1634px] lg:mt-3 lg:bg-transaprent lg:flex-col lg:mx-auto lg:justify-center
+      <section id="about" className="lg:w-full lg:bg-transparent lg:h-[1105px] lg:mb-0 lg:top-[1634px] lg:mt-3 lg:bg-transaprent lg:flex-col lg:mx-auto lg:justify-center
        w-[430px] h-[1250px] bg-transparent mb-0">
         <div className='lg:w-[50px] lg:h-[2px] lg:flex  lg:bg-transparent lg:mx-auto lg:mb-4 lg:mt-[-120px]  bg-transparent w-[50px] h-[2px]
         flex  mx-auto ' >
@@ -399,13 +399,16 @@ text-align: center; */}
                 
               </div>
                    
-                    <div className="block lg:hidden lg:bg-green-500 mt-4 w-[390px] h-[280px] rounded-lg bg-transparent">
+                    {/* <div className="block lg:hidden lg:bg-green-500 mt-4 w-[390px] h-[280px] rounded-lg bg-transparent">
               <img src={Card} alt="" className=' lg:w-[560px] lg:h-[301px] w-[390px] h-[210px]'/>
-            </div>
+            </div> */}
 
             </div>
-
+{/* 
             <div className="lg:w-[490px] lg:h-[250px] lg:top-[983px] lg:left-[769px] lg:mt-[59px] lg:gap-[39px] lg:bg-transparent mt-[210px]
+            w-[390px] h-[97.7px] bg-transparent"> */}
+            
+            <div className="lg:w-[490px] lg:h-[250px] lg:top-[983px] lg:left-[769px] lg:mt-[59px] lg:gap-[39px] lg:bg-transparent mt-[0px]
             w-[390px] h-[97.7px] bg-transparent">
               <div className="lg:w-[490px] lg:h-[133px] lg:gap-[16px] lg:bg-transparent  lg:mt-0 mt-4 w-[390px] h-[70px] bg-transparent">
                 <h3 className="lg:font-normal lg:text-[28px] lg:leading-[100%] lg:space-[0%] lg:text-[#266075] font-medium text-[16.51px] text-left
@@ -427,7 +430,7 @@ text-align: center; */}
             </div>
           </div>
         </div>
-      </section> */}
+      </section>
       {/* About Me Section Ends */}
 
       {/* Hire Section Starts  lg:h-[836px]  lg:bg-[#FAFAFA] */}
@@ -452,7 +455,7 @@ lg:justify-center w-[390px] h-[35.9px] bg-transparent flex flex-col items-center
         </div>
 
         <div className="lg:w-[996.4px] lg:h-[490px] lg:top-[297px] lg:left-[222px] lg:flex-col lg:mx-auto lg:mt-[70px] lg:gap-[24.76px]
-         lg:bg-transparent w-[390px] h-[317px] bg-transparent  flex flex-col items-center justify-between mt-5">
+         lg:bg-transparent w-[390px] h-[317px] bg-transparent flex flex-col items-center justify-between mt-5">
           <div className="lg:w-[996.4px] lg:h-[210px] lg:gap-[24.76px] lg:bg-transparent lg:flex">
             {/* {posts.map((post)  lg:h-[491px]=>{ */}
             {posts.filter(post => post.id === 1 || post.id === 2).map((post) => {
@@ -476,7 +479,8 @@ lg:justify-center w-[390px] h-[35.9px] bg-transparent flex flex-col items-center
 
 
           <div className="lg:w-[996.4px] lg:h-[210.1px] lg:gap-[24.76px] lg:flex lg:flex-row lg:justify-start lg:mt-7 lg:bg-transparent 
-          bg-transparent w-[390px] h-[430px] flex flex-col items-center justify-between mt-0">
+          bg-transparent w-[390px] h-[317px]  flex flex-col items-center justify-between mt-0">
+            {/* w-[390px] h-[317px] bg-yellow-200  flex flex-col items-center justify-between mt-5"> */}
             {posts.filter(post => post.id === 3 || post.id === 4).map((post) => {
               return (
                 <div
@@ -499,7 +503,7 @@ lg:justify-center w-[390px] h-[35.9px] bg-transparent flex flex-col items-center
 
       {/* Expertise Section Starts */}
       <section className="lg:w-full lg:h-[660px] lg:bg-[#FFFFFF] lg:flex lg:flex-col 
-lg:justify-center lg:mb-0 mb-6 bg-transparent w-[390px] h-[670px] mx-auto">
+lg:justify-center lg:mb-0 mb-6 bg-transparent w-[390px] h-[670px] mx-auto lg:mt-0 mt-10">
         <div className="lg:w-[400px] lg:h-[60px] lg:mt-[-100px] lg:bg-transparent lg:mb-0 lg:flex lg:flex-col  lg:items-center lg:mx-auto lg:justify-center 
         lg:gap-[16px] w-[390px] h-[35.04px] mb-8 flex flex-col justify-center items-center bg-transparent">
           {/* <div className="lg:w-[400px] lg:min-h-[70px] lg:mt-10 lg:flex lg:flex-col lg:items-center lg:mx-auto lg:justify-center lg:gap-2 lg:bg-green-500"> */}
