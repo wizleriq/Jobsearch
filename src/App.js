@@ -341,10 +341,15 @@ text-align: center; */}
             </div>
           </div>
 
-          <div className="lg:w-[490px] lg:h-[958px] lg:top-[252px] lg:left-[89px] lg:flex-col lg:bg-transaprent 
+          {/* <div className="lg:w-[490px] lg:h-[958px] lg:top-[252px] lg:left-[89px] lg:flex-col lg:bg-transaprent 
           w-[390px] h-[1400px] bg-transparent flex flex-col lg:mb-0  mb-10">
             <div className="lg:w-[490px] lg:h-[556px] lg:top-[22px lg:left-[89px] lg:flex-col lg:bg-transaprent
-            w-[390px] h-[270px] flex flex-col bg-transparent ">
+            w-[390px] h-[270px] flex flex-col bg-transparent "> */}
+             <div className="lg:w-[490px] lg:h-[958px] lg:top-[252px] lg:left-[89px] lg:flex-col lg:bg-[#ffffff] 
+          w-[390px] h-[1000px] bg-green-500 flex flex-col lg:mb-0  mb-10">
+            {/* <div className="lg:w-[490px] lg:h-[556px] lg:top-[22px lg:left-[89px] lg:flex-col lg:bg-transaprent
+            w-[390px] h-[270px] flex flex-col bg-red-300 "> */}
+
 
               <div className="lg:w-[490px] lg:h-[115px] lg:top-[289px] lg:left-[767px] lg:gap-[16px] lg:bg-transaprent lg:mt-6
               lg:mb-0 mb-8 w-[390px] h-[40.4px] bg-transparent">
@@ -360,8 +365,9 @@ text-align: center; */}
 
                 </div>
               </div>
+
     <div className='lg:w-[490px] lg:h-[309px] lg:top-[478px] lg:mt-8 lg:left-[767px] lg:gap-[24px] lg:bg-transparent
-  lg:flex-col lg:justify-evenly bg- w-[390px] h-[900px] flex flex-col items-center justify-center mt-0'>
+  lg:flex-col lg:justify-evenly bg- w-[390px] h-[200px] bg-yellow-200 flex flex-col items-center justify-center mt-0'>
 
                 <div className="lg:w-[489px] lg:h-[70px] lg:mb-4 lg:rounded-lg lg:bg-[#DCF4FD] lg:flex lg:items-center
                  lg:justify-evenly w-[390px] h-[55.15px] flex items-center lg:pl-0 pl-2 rounded-lg mb-2 bg-[#DCF4FD] ">
@@ -403,7 +409,7 @@ text-align: center; */}
               <img src={Card} alt="" className=' lg:w-[560px] lg:h-[301px] w-[390px] h-[210px]'/>
             </div> */}
 
-            </div>
+            {/* </div> */}
 {/* 
             <div className="lg:w-[490px] lg:h-[250px] lg:top-[983px] lg:left-[769px] lg:mt-[59px] lg:gap-[39px] lg:bg-transparent mt-[210px]
             w-[390px] h-[97.7px] bg-transparent"> */}
