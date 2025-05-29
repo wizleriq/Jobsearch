@@ -147,7 +147,7 @@ const ProfilesComponent = () => {
 
             {/* Dropdown Menu */}
             {isOpen && (
-              <div className="absolute top-[59px] right-[0px] w-[430px] h-[250px] z-20 bg-white shadow-lg rounded p-2
+              <div className="absolute top-[59px] right-[0px] w-[400px] h-[250px] z-20 bg-white shadow-lg rounded p-2
          transition-all duration-300 opacity-400 scale-100 transform origin-top">
                 <ul>
                   <a href='/'><li className="py-2 px-4 my-1 text-[16px] text-[#266075] font-normal bg-transparent cursor-pointer w-[430px] h-[40px] hover:bg-[#DCF4FD] hover:scale-105 transition-transform duration-300">
@@ -300,7 +300,7 @@ height: 16.25552749633789; */}
           h-[17.27px] top-[540px] left-[20px] " />
           <h3 className="lg:w-[677px] lg:h-[117px] lg:top-[99px] lg:left-[357px] lg:font-semibold lg:text-[32px]
    lg:leading-[100%] lg:space-[-4px] lg:text-center lg:flex lg:items-center lg:justify-center lg:capitalize lg:text-[#266075]
-   text-[#266075] font-semibold text-[12.62px]  text-center">
+   text-[#266075] font-semibold text-[15.39px]  text-center">
             Streamlining hiring by connecting top talent with the right opportunities for both clients and candidates.</h3>
         </div>
       </div>
@@ -506,8 +506,10 @@ height: 16.25552749633789; */}
       {/* About Me Section Ends */}
 
       {/* Hire Section Starts  lg:h-[836px]  lg:bg-[#FAFAFA] */}
-      <section id='hire' className="lg:w-full lg:h-[780px] lg:top-[3024px] lg:bg-[#FAFAFA] lg:mx-auto lg:flex lg:flex-col 
-lg:justify-center lg:mt-12 lg:mb-0 mb-4 mt-6 w-[390px] h-[760px] bg-tranasparent flex flex-col mx-auto">
+      {/* <section id='hire' className="lg:w-full lg:h-[780px] lg:top-[3024px] lg:bg-[#FAFAFA] lg:mx-auto lg:flex lg:flex-col 
+lg:justify-center lg:mt-12 lg:mb-0 mb-4 mt-6 w-[390px] h-[760px] bg-green-400 flex flex-col mx-auto"> */}
+  <section id='hire' className="lg:w-full lg:h-[780px] lg:top-[3024px] lg:bg-[#FAFAFA] lg:mx-auto lg:flex lg:flex-col 
+lg:justify-center lg:mt-12 lg:mb-0 mb-4 mt-6 w-[390px] h-[720px] bg-transparent flex flex-col mx-auto">
 
         <div className='lg:w-[50px] lg:h-[2px] lg:flex  lg:mx-auto lg:mb-4 lg:mt-[-120px] ' >
           <div className='lg:w-[19px] lg:h-[2px] lg:bg-[#01B0F1] lg:flex lg:flex-col lg:mx-auto lg:mt-4'>
@@ -621,7 +623,7 @@ lg:justify-center lg:mb-0 mb-6 bg-transparent w-[390px] h-[670px] mx-auto lg:mt-
         </div>
 
       </section>
-      {/* Expertise Section Starts */}
+      {/* Expertise Section Ends */}
 
       {/* Work Section Ends */}
       <section className='lg:w-full lg:h-[900px] lg:bg-[#FAFAFA] lg:flex lg:flex-col lg:mx-auto mb-8 bg-transparent w-[390px] h-[1190px]
