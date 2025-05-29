@@ -147,7 +147,7 @@ const ProfilesComponent = () => {
 
             {/* Dropdown Menu */}
             {isOpen && (
-              <div className="absolute top-[59px] right-[0px] w-[400px] h-[250px] z-20 bg-white shadow-lg rounded p-2
+              <div className="absolute top-[59px] right-[0px] w-[415px] h-[250px] z-20 bg-white shadow-lg rounded p-2
          transition-all duration-300 opacity-400 scale-100 transform origin-top">
                 <ul>
                   <a href='/'><li className="py-2 px-4 my-1 text-[16px] text-[#266075] font-normal bg-transparent cursor-pointer w-[430px] h-[40px] hover:bg-[#DCF4FD] hover:scale-105 transition-transform duration-300">
