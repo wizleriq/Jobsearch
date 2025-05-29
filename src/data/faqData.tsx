@@ -8,12 +8,12 @@ const faqs: Faq[] = [
         picture: Plus
     },
     {
-        id: 1,
+        id: 2,
         text: "What industries do you specialize in?",
         picture: Plus
     },
     {
-        id: 1,
+        id: 3,
         text: "How can I get in touch with a recruiter?",
         picture: Plus
     },

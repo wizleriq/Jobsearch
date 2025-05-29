@@ -20,7 +20,7 @@ const expertises: Expertise[] = [
 
     },
     {
-        id: 2,
+        id: 3,
         picture: People,
         text: 'Talent Acquisition Strategy Consulting. '
 

@@ -26,7 +26,7 @@ const works: Work[] = [
 
     },
     {
-        id: 2,
+        id: 4,
        picture: Startwo,
        text: "Expansive Industry Network",
        subtext:'Access to an extensive pool of exceptional candidates.'

@@ -13,14 +13,14 @@ const testimonials: Testimonial[] = [
         picture: Dave,
     },
     {
-        id: 1,
+        id: 2,
         text: "My experience with Urgent! Hire Jobs was outstanding. From the initial conversation to securing my new role, their team provided exceptional guidance, support, and professionalism.",
         symbol: Quotation,
         name: "Femi Adenuga",
         picture: Femi,
     },
     {
-        id: 1,
+        id: 3,
         text: "Thanks to their expertise, I found a position that aligns perfectly with my professional goals and personal aspirations. The entire process was smooth, and incredibly supportive. ",
         symbol: Quotation,
         name: "Amanda David",
